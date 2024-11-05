@@ -1,4 +1,4 @@
-mermaid graph TD;
+'''mermaid graph TD;
 
 A[Fungal Colonization Present Before Anaphylaxis] --> B[Chronic Exposure to Fungal Toxins];
 B --> C[Immune System Modulation];
@@ -29,3 +29,4 @@ U[Eating Carbs Raises Blood Sugar Above 135];
 U --> V[Reduced Fat Mobilization];
 V --> W[Decrease in Toxin Release];
 W --> X[Symptoms Alleviated Quickly (UDE6)];
+'''
