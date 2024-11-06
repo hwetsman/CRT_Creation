@@ -1,5 +1,5 @@
 ```
-graph TD
+flowchart TD
 
 A[Fungal Colonization Present Before Anaphylaxis] --> B[Chronic Exposure to Fungal Toxins]
 
