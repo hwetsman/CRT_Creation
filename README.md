@@ -1,28 +1,34 @@
 ```mermaid
-flowchart TB
+graph TD
 
 A[Fungal Colonization Present Before Anaphylaxis] --> B[Chronic Exposure to Fungal Toxins]
 B --> C[Immune System Modulation]
 C --> D[Predisposition to Anaphylactic Reaction]
-D[Anaphylaxis Episode] --> E[Further Immune Dysregulation]
-E --> F[Increased Sensitivity to Gluten and Other Triggers]
-F --> G[Exposure to Triggers Activates Immune Response]
-G --> H[Release of Inflammatory Mediators]
-H --> I[Neurological Symptoms: Headaches, Lethargy, Brain Fog, Irritability (UDE1)]
-B --> J[Accumulation of Fungal Toxins in Fat Cells]
-K[High-Dose Vitamin D Supplementation (UDE5)] --> L[Improved Immune Regulation]
-L --> M[Reduction in Symptoms]
-M --> N[Improved Activity Levels]
-O[Keto Diet Leads to Rapid Fat Loss]
-O --> P[Release of Stored Fungal Toxins from Fat Cells]
-P --> Q[Increased Circulating Fungal Toxins]
-Q --> R[Enhanced Exposure to Fungal Toxins]
-R --> S[Immune Activation and Inflammation]
-S --> I
-R --> T[Direct Neurotoxic Effects]
-T --> I
-U[Eating Carbs Raises Blood Sugar Above 135]
-U --> V[Reduced Fat Mobilization]
-V --> W[Decrease in Toxin Release]
-W --> X[Symptoms Alleviated Quickly (UDE6)]
+D --> E[Anaphylaxis Episode]
+E --> F[Further Immune Dysregulation]
+F --> G[Increased Sensitivity to Gluten and Other Triggers]
+G --> H[Exposure to Triggers Activates Immune Response]
+H --> I[Release of Inflammatory Mediators]
+I --> J[Neurological Symptoms: Headaches, Lethargy, Brain Fog, Irritability (UDE1)]
+
+B --> K[Accumulation of Fungal Toxins in Fat Cells]
+
+L[High-Dose Vitamin D Supplementation (UDE5)] --> M[Improved Immune Regulation]
+M --> N[Reduction in Symptoms]
+N --> O[Improved Activity Levels]
+
+P[Keto Diet Leads to Rapid Fat Loss]
+P --> Q[Release of Stored Fungal Toxins from Fat Cells]
+Q --> R[Increased Circulating Fungal Toxins]
+R --> S[Enhanced Exposure to Fungal Toxins]
+S --> T[Immune Activation and Inflammation]
+T --> J
+
+S --> U[Direct Neurotoxic Effects]
+U --> J
+
+V[Eating Carbs Raises Blood Sugar Above 135]
+V --> W[Reduced Fat Mobilization]
+W --> X[Decrease in Toxin Release]
+X --> Y[Symptoms Alleviated Quickly (UDE6)]
 ```
